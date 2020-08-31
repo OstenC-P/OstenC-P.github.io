@@ -14,40 +14,111 @@
   </head>
   <body>
       <header>
-        <nav class="navbar navbar-expand-sm bg-dark">
+        <nav class="navbar navbar-expand-sm bg-dark fixed-top d-flex justify-content-center">
 
             <!-- Links -->
-            <ul class="navbar-nav justify-content-center">
+            <ul class="navbar-nav">
                 <li class="nav-item text-plain">
                     <a class="nav-link text-white" href="#about">About</a>
                 </li>
+               
                 <li class="nav-item">
                     <a class="nav-link text-white" href="#work" >My Previous work</a>
                 </li>
+                <!-- Commented out because i added it as a footer
                 <li class="nav-item">
                     <a class="nav-link text-white" href="#contact">Contact me</a>
-                </li>
+                </li> -->
             </ul>
       </header>
 
-      <!--About DIV-->
-      <div class="bg-warning container text-white container-md  id="about" >
-          <h1>Osten Crawford-Page</h1>
-          <h2> Aspiring Web developer, i am open to both corporate inqueries or freelance work</h2>
+      <!--About DIV-->      
+      <div class="container text-center" id="about">
+          <h1> Osten crawford-page </h1> <!--IDK WHY INVESTIGATE-->
+          <h1 >Osten Crawford-Page</h1>
+          <p> Aspitring web developer, contact me for any freelance or corporate oppertunties.</p>
+          <p>My past..., history etc why i choose this career... </p> <!--Push OTHER CONTENT down-->
       </div>
 
       <!--Work DIV-->
-      <div id="work">
+      <div class="container text-center">
+          <h1>My previous work</h1>
+          <div class="card-columns card-deck">
+              <!-- Card 1 -->
+                <div class="card bg-dark text-white">
+                    <div class="card-body text-center">
+                    <p class="card-title"> <strong>X, webpage</strong></p>
+                    <img class="card-img-top" src="#" alt="X, webpage image">
+                    <p class="card-text"> This is my first project undertaken.</p>
+                    <a href="#" class="btn btn-light stretched-link">Explore this work</a>
+                    </div>
+                </div>  
+                
+                <!-- Card 2-->
+                <div class="card bg-dark text-white">
+                    <div class="card-body text-center">
+                    <p class="card-title"> <strong>The Slips, webpage</strong></p>
+                    <img class="card-img-top" src="#" alt="website image">
+                    <p class="card-text"> This is my first project undertaken as a free lancer</p>
+                    <a href="#" class="btn btn-light stretched-link">Explore this work</a>
+                    </div>
+                </div>        
 
-      </div>
+                <!-- Card 3 -->
+                <div class="card bg-dark text-white">
+                <div class="card-body text-center">
+                    <p class="card-title"> <strong>Javscript calculator</strong></p>
+                    <img class="card-img-top" src="#" alt="JS cal image">
+                    <p class="card-text"> This is my first project undertaken using JavaScript</p>
+                    <a href="#" class="btn btn-light stretched-link">Explore this work</a>
+                    </div>
+                </div>
+          </div>
 
+          <!--
+          Duplicate to show it can be expanded dowmwards for more projects.
+          <div class="card-columns card-deck">
+            Card 2.1 
+              <div class="card bg-dark text-white">
+                  <div class="card-body text-center">
+                  <p class="card-title"> <strong>#2X, webpage</strong></p>
+                  <img class="card-img-top" src="#" alt="X, webpage image">
+                  <p class="card-text"> #2This is my first project undertaken.</p>
+                  <a href="#" class="btn btn-light stretched-link">#2Explore this work</a>
+                  </div>
+              </div>  
+              
+               Card 2.2
+              <div class="card bg-dark text-white">
+                  <div class="card-body text-center">
+                  <p class="card-title"> <strong>#2The Slips, webpage</strong></p>
+                  <img class="card-img-top" src="#" alt="website image">
+                  <p class="card-text"> #2This is my first project undertaken using as a free lancer</p>
+                  <a href="#" class="btn btn-light stretched-link">#2Explore this work</a>
+                  </div>
+              </div>        
+
+               Card 2.3 
+              <div class="card bg-dark text-white">
+              <div class="card-body text-center">
+                  <p class="card-title"> <strong>#2Javscript calculator</strong></p>
+                  <img class="card-img-top" src="#" alt="JS cal image">
+                  <p class="card-text"> #2This is my first project undertaken using JavaScript</p>
+                  <a href="#" class="btn btn-light stretched-link">#2Explore this work</a>
+                  </div>
+              </div>
+        </div> -->
+            
+       
+     
       <!-- Contact DIV -->
-      <footer>
-          <div id="contact">
+      <footer class="fixed-bottom">
+          <div class="d-flex justify-content-center" id="contact">
              <ul>
-                <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
-                <li> <a href="https://github.com/OstenC-P" target="_blank">GitHub</a></li>
-                <li > <a href="https://au.linkedin.com/" target="_blank">Linked in</a> </li>
+                <li class="f-links"><a href="https://www.facebook.com/" target="_blank"> <img src="https://i.pinimg.com/originals/30/99/af/3099aff4115ee20f43e3cdad04f59c48.png" alt="Facebook"  width="20px" height="20px"><Facebook</a></li>
+                <li class="f-links"> <a href="https://github.com/OstenC-P" target="_blank"> <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GItHub" width="20px" height="20px"></a></li>
+                <li class="f-links"> <a href="https://au.linkedin.com/" target="_blank"> <img src="https://p1.pxfuel.com/preview/303/475/580/linkedin-social-media-internet-network-royalty-free-thumbnail.jpg" alt="LinkedIn" width="20px" height="20px"> </a> </li>
+                <li class="f-links"> <a href = "mailto: osten.crawford-page@outlook.com" target="_blank"><img src="https://pbs.twimg.com/profile_images/1136345387181076481/0gjKiHmL.png" alt="Email" width="20px" height="20px"></a></li> 
              </ul>
 
             </div>

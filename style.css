@@ -1,4 +1,8 @@
-.footer {
+body{
+    background-color: darkgrey;
+}
+
+footer {
   position: fixed;
   left: 0;
   bottom: 0;
@@ -6,4 +10,18 @@
   background-color: black;
   color: white;
   text-align: center;
+}
+
+
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    
+}
+
+.f-links{
+    display: inline;
+    text-decoration: none;
+    color: white;
 }
